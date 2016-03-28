@@ -1,8 +1,9 @@
 set nocompatible  "关闭与VI的兼容  
 set number  "显示行号  
 filetype on   
-set history=1000   
-"set background=dark "good for dark terminal background
+set history=1000
+colorscheme molokai "need file molokai.vim
+set background=dark "good for dark terminal background
 syntax on  "打开语法高亮显示  
 set autoindent "自动对齐，使用上一行的对齐方式  
 set smartindent "智能对齐方式  
