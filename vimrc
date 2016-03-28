@@ -2,8 +2,8 @@ set nocompatible  "关闭与VI的兼容
 set number  "显示行号  
 filetype on   
 set history=1000
-colorscheme molokai "need file molokai.vim
-set background=dark "good for dark terminal background
+colorscheme solarized "need file molokai.vim
+set background=light "good for dark/light terminal background
 syntax on  "打开语法高亮显示  
 set autoindent "自动对齐，使用上一行的对齐方式  
 set smartindent "智能对齐方式  
@@ -17,9 +17,11 @@ set nohls
 set incsearch "搜索自动定位  
 if has("vms")  
 set nobackup  
-else  
+else
 set backup  
 endif  
 
 nnoremap B ^
 nnoremap E $
+
+set cursorline
