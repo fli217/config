@@ -1,0 +1,8 @@
+[user]
+	email = email.to.fli@gmail.com
+	name = fr-ant
+[push]
+	default = simple
+[alias]
+	nocommit = !git add --all && git commit -m 'Default Commit'
+	mycommit = !git add --all && git commit -m
